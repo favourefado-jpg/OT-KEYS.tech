@@ -1,0 +1,117 @@
+/* <!-- Custom Navbar Animation Styles --> */
+/* <style> */
+  /* Text logo spacing */
+  .navbar-brand span {
+    letter-spacing: 1px;
+  }
+
+  .navbar-brand small {
+    font-size: 0.75rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #8a8aff;
+  }
+
+  /* Nav link hover animation */
+  .navbar-nav .nav-link {
+    font-weight: 400;
+    transition: all 0.3s ease;
+  }
+
+  .navbar-nav .nav-link:hover {
+    color: #8a8aff;
+    font-weight: 600;
+    transform: translateY(-2px);
+  }
+
+  /* Active link */
+  .navbar-nav .nav-link.active {
+    color: #8a8aff;
+    font-weight: 600;
+  }
+
+  .card{
+    padding-top: 100px;
+  }
+
+  <style>
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffffff;
+}
+
+/* Contact Section */
+.contact-section {
+  background: #f6f8fa;
+  border-radius: 20px;
+  padding: 60px 20px;
+  margin: 30px auto;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+}
+
+/* Intro Text */
+.contact-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.contact-description {
+  font-size: 1.1rem;
+  color: #555;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Contact Form */
+.card form input,
+.card form textarea {
+  border-radius: 10px;
+}
+
+.card form button {
+  border-radius: 50px;
+  background: linear-gradient(45deg, #00f260, #0575e6);
+  border: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.card form button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Contact Links */
+.contact-link {
+  color: #0575e6;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contact-link:hover {
+  text-decoration: underline;
+}
+
+/* Social Icons */
+.social-icons img {
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+  filter: brightness(1.2);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero-section,
+  .contact-section {
+    padding: 40px 20px;
+  }
+}
+</style>
+/* </style> */
